@@ -17,7 +17,7 @@ A Send Data button
 
 Task 04: Victoria's Journal
 
-A journal page organized with ids, classes, spans and divs, and styled with an external style sheet (task 4 style.css).
+A journal page organized with ids, classes, spans and divs, and styled with an external style sheet (lab-task-6-task-4-style.css).
 
 It uses:
 
