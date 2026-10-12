@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 03 and Task 04</title>
+
+    <!-- Task 03 internal css -->
+    <style>
+        body {
+            font-family:sans-serif;
+        }
+
+        h2.task {
+            color: royalblue;
+        }
+
+        #form-box {
+            background-color: gainsboro;
+            width: 575px;
+            margin: 0 auto 40px auto;
+            padding: 20px;
+        }
+
+            #form-box h1 {
+                color: red;
+                font-family:sans-serif;
+                font-size: 24px;
+                text-align: center;
+            }
+
+            #form-box table {
+                width: 100%;
+                border: 2px solid dimgray;
+                border-spacing: 3px;
+            }
+
+            #form-box td {
+                background-color: lightblue;
+                border: 2px solid darkgray;
+                padding: 6px;
+                font-family:serif;
+                font-size: 17px;
+            }
+
+                #form-box td.label {
+                    width: 120px;
+                    text-align: right;
+                    font-weight: bold;
+                }
+
+                #form-box td.center {
+                    text-align: center;
+                }
+    </style>
+
+    <!-- Task 04 external css -->
+    <link rel="stylesheet" href="task 4 style.css">
+</head>
+<body>
+
+    <!-- task 3 -->
+    <h2 class="task">Task 03:</h2>
+    <div id="form-box">
+        <h1>Continental Hotel Reservation Form</h1>
+        <form action="/action_page.php">
+            <table>
+                <tr>
+                    <!--placeholder can be used instead of value for lighter text-->
+                    <td class="label">Name</td>
+                    <td><input type="text" name="name"  value="Enter your name"></td>
+                </tr>
+                <tr>
+                    <td class="label">Email</td>
+                    <td><input type="text" name="email"  value="info@continental.pk"></td>
+                </tr>
+                <tr>
+                    <td class="label">Mobile No</td>
+                    <td><input type="number" name="mobile"  value="Enter your cell number"></td>
+                </tr>
+                <tr>
+                    <td class="label">Arrival Time</td>
+                    <td><input type="text" name="arrival" value="Enter your arrival time"></td>
+                </tr>
+                <tr>
+                    <td class="label">Departure</td>
+                    <td>
+                        <input type="text" name="departure1">
+                        <input type="time" name="departure2">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">Room Type</td>
+                    <td>
+                        <input type="radio" name="room" value="single">Single
+                        <input type="radio" name="room" value="double">Double
+                        <br>
+                        <input type="radio" name="room" value="suite">Presidential Suite
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">Preferences</td>
+                    <td>
+                        <input type="checkbox" name="pref" value="nonsmoking">Non-Smoking<br>
+                        <input type="checkbox" name="pref" value="internet">Internet<br>
+                        <input type="checkbox" name="pref" value="mattress">Firm Mattress
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">Mode of Payment</td>
+                    <td>
+                        <input type="checkbox" name="pay" value="cash">Cash
+                        <input type="checkbox" name="pay" value="check">Check<br>
+                        <input type="checkbox" name="pay" value="credit">Credit Card
+                        <select name="card">
+                            <option>Select Card</option>
+                            <option>Visa</option>
+                            <option>MasterCard</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="center" colspan="2">
+                        <input type="submit" value="Send Data">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+  
+
+    <!-- task 4-->
+    <h2 class="task">Task 04:</h2>
+    <div id="journal-page">
+        <div id="main">
+
+            <div id="header">
+                <h1>Victoria's Journal</h1>
+                <p>So fresh and so clean</p>
+            </div>
+
+            <div id="friends">
+                <h2 class="friends">Friends</h2>
+                <ul>
+                    <li><span class="colour">390 Buddies</span></li>
+                    <li class="best"><span class="white">Big Will</span></li>
+                    <li><span class="colour">Conan the Librarian</span></li>
+                </ul>
+            </div>
+
+            <div id="entries">
+
+                <div class="entry">
+                    <h3><span class="date">04/09/08:</span> Spatulas</h3>
+                    <img src="images/spatula.jpg" alt="Spatula">
+                    <p>Yesterday, I went to the store and got some much needed spatulas! (what better way to say I love myself than to buy myself a spatula.)</p>
+                </div>
+
+                <div class="entry">
+                    <h3><span class="date">04/08/08:</span> Cookie Cupcakes</h3>
+                    <img src="images/cupcake.jpg" alt="Cookie Cupcakes">
+                    <p>My favorite cartoon character is cookie, and my favorite dessert is cupcakes. So Cookie Cupcakes are best of both the worlds. Did you know? Cookie character once said, " Sometimes me think what is love, and then me think love is what cookie is for. Me give up the last cookie for you. " I woonder if the same applies for the cupcakes? (If so, I don't think I can ever love ANYONE!)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+#journal-page {
+    background-color: lightcyan;
+    width: 1100px;
+    margin: 0 auto;
+    padding:7px 8px 20px 8px;
+    font-family:sans-serif;
+}
+
+#main {
+    background-color: white;
+    width: 880px;
+    margin: 0 auto;
+    padding: 10px;
+    overflow:hidden;
+}
+
+#header {
+    background-color: paleturquoise;
+    text-align: right;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+    #header h1 {
+        color: lightseagreen;
+        font-size: 32px;
+        font-weight: normal;
+        margin: 0;
+    }
+
+    #header p {
+        color: lightseagreen;
+        font-size: 16px;
+        margin: 0;
+    }
+
+#friends {
+    float: left;
+    width: 150px;
+    background-color: turquoise;
+    border: 4px solid darkcyan;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+    #friends h2 {
+        color: paleturquoise;
+        font-size: 30px;
+        font-weight: normal;
+        margin: 0 0 15px 0;
+    }
+
+    /*using the div id/class to refer the elements inside the div*/
+    #friends ul {
+        font-family:serif;
+        font-size: 14px;
+        color: black;
+        margin: 0;
+        padding-left: 15px;
+    }
+
+    #friends li.best {
+        font-weight: bold;
+    }
+
+#entries {
+    float: left;
+    width: 660px;
+    overflow: hidden;
+}
+
+.entry {
+    background-color: lightcyan;
+    border: 3px solid powderblue;
+    padding: 8px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+    .entry h3 {
+        color: lightseagreen;
+        font-size: 24px;
+        font-weight: normal;
+        margin: 0 0 6px 0;
+    }
+    .colour
+    {
+        color:red;
+    }
+    .white
+    {
+        color:white;
+    }
+
+    .entry img {
+        float: right;
+        width: 300px;
+        height: 185px;
+        object-fit: cover;
+        margin-left: 10px;
+    }
+
+    .entry p {
+        color: rosybrown;
+        font-size: 14px;
+        text-align: justify;
+        margin: 0;
+    }
+
+.date {
+    border-bottom: 2px dashed blue;
+}
