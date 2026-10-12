@@ -1,5 +1,8 @@
 Lab Task 6 Contains: HTML and CSS Tasks For My IICT Course
 
+Open lab task 6:
+https://blazerumer.me/IICT-Tasks-For-Univerisity/lab%20task%206/
+
 Two small web page tasks made with basic HTML and CSS only (no JavaScript).
 
 Task 03: Hotel Reservation Form
@@ -24,3 +27,6 @@ It uses:
 Borders, margins and padding to make the boxes
 Float to place the friends list and entries side by side
 font-family and font-weight for the text
+
+
+
