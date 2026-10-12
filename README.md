@@ -1,4 +1,4 @@
-**Lab Task 6 Contains: HTML and CSS Tasks For My IICT Course**
+## **Lab Task 6 Contains: HTML and CSS Tasks For My IICT Course**
 
 To Open lab task 6:
 https://blazerumer.me/IICT-Tasks-For-Univerisity/lab%20task%206/
