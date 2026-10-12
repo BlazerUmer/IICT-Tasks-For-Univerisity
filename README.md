@@ -1,4 +1,4 @@
-HTML and CSS Tasks For My IICT Course
+Lab Task 6 Contains: HTML and CSS Tasks For My IICT Course
 
 Two small web page tasks made with basic HTML and CSS only (no JavaScript).
 
